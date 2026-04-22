@@ -1,0 +1,51 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin:0;
+}
+
+#email{
+  padding:19px 30px;
+ /* margin-top:50px; */
+  width:500px;
+  border:2px solid black;
+  box-sizing:border-box;
+  background-color: rgb(250, 232, 204);
+ box-shadow: 4px 4px 10px rgb(45, 43, 43); 
+
+}
+
+#confidential{
+ display:inline-block;
+ padding:10px;
+ margin-left:30%;
+ border: 7px solid red;
+ transform:rotate(-30deg);
+ font-size:30px;
+ color:red;
+ font-weight: bold;
+
+ position:relative; /*se mueve desde su posicion original*/
+ top:50px;
+
+}
+
+#top-secret{
+  display:inline-block;
+padding:10px;
+ margin-left:60%;
+ border: 7px solid red;
+ transform:rotate(13deg);
+  font-size:19px;
+ color:red;
+ font-weight: bold;
+
+ position:relative;
+ bottom:10px;
+}
+
+.blurred{
+     filter: blur(3px);
+}
